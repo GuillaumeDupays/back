@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imgs",
+  "info": {
+    "name": "imgs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "chemin": {
+      "type": "string"
+    }
+  }
+}

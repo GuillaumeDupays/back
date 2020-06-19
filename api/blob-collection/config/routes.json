@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/blob-collections",
+      "handler": "blob-collection.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blob-collections/count",
+      "handler": "blob-collection.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blob-collections/:id",
+      "handler": "blob-collection.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/blob-collections",
+      "handler": "blob-collection.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/blob-collections/:id",
+      "handler": "blob-collection.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/blob-collections/:id",
+      "handler": "blob-collection.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

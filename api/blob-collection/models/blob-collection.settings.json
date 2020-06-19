@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blob_collections",
+  "info": {
+    "name": "blob-collection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "objet": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}
