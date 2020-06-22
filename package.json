@@ -7,7 +7,9 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "server:prod": "NODE_ENV=production pm2 start server.js",
+    "server:dev": "NODE_ENV=development pm2 start server.js"
   },
   "devDependencies": {},
   "dependencies": {
